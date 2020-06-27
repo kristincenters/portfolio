@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-// import Header from './components/Header';
+import Header from './components/Header';
+
 // import Section from './components/Section/';
 // import Card from './components/Card/';
 // import Footer from './components/Footer';
@@ -8,9 +9,8 @@ import './App.css';
 function App() {
 	return (
 		<div>
-			App
-			{/* <Header />
-			<Section />
+			<Header />
+			{/* <Section />
 			<Card />
 			<Footer /> */}
 		</div>
