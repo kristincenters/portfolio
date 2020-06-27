@@ -1,0 +1,11 @@
+[
+	{
+		"id": 1,
+		"title": "Stay Organized: Plan Your Day",
+		"card-img": "./assets/images/graphic-headers-01.svg",
+		"description": "Save your notes and check your schedule with this daily planner",
+		"site-link": "https://kristincenters.github.io/DailyPlanner",
+		"code-link": "https://github.com/kristincenters/DailyPlanner",
+		"card-footer": "HTML • CSS • JS"
+	}
+]
