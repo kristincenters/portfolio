@@ -7,14 +7,6 @@ body {
 	background-color: #f4f5e6;
 	color: #585858;
 }
-
-.jumbotron {
-	/* background-image: url('../assets/images/portfolio_background-01.svg'); */
-	background-repeat: no-repeat;
-	color: #202020;
-	border-radius: 0px;
-	background-size: cover;
-}
 .card-link {
 	color: gray;
 	text-align: center;

@@ -1,19 +1,32 @@
 import React from 'react';
 import headshot from '../assets/kmc.1.jpg';
+import backgroundImg from '../assets/portfolio_background-01.svg';
+
+const styles = {
+	jumbotron: {
+		backgroundImage: `url(${backgroundImg})`,
+		backgroundRepeat: 'noRepeat',
+		color: '#202020',
+		borderRadius: '0px',
+		backgroundSize: 'cover',
+		padding: '25px',
+	},
+};
 
 function Hero() {
 	return (
-		<div className='jumbotron text-center'>
+		<div style={styles.jumbotron}>
 			<img
 				src={headshot}
-				className='img-fluid rounded-circle border border-white'
+				className='img-fluid rounded-circle border border-white d-block mx-auto'
 				alt='Kristin Centers'
 			/>
-			<h1 className='display-5'>Coder. Content. Creative.</h1>
-			<p className='lead'>
+			<h1 className='display-5 text-center'>Coder. Content. Creative.</h1>
+			<p className='lead text-center'>
 				I've enjoyed a successful career in the field of corporate
-				communications with an emphasis on digital content and graphic design,
-				and now, I am taking a deep dive into web design and development.{' '}
+				communications
+				<br /> with an emphasis on digital content and graphic design, and now,
+				I am taking a deep dive into web design and development.{' '}
 			</p>
 		</div>
 	);
