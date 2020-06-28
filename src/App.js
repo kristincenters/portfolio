@@ -12,10 +12,13 @@ function App() {
 		<div>
 			<Header />
 			<Hero />
+			<br />
+			<br />
 			<div className='container'>
 				<div className='card-deck'>
 					<ProjectCard
 						title={projects[0].title}
+						description={projects[0].description}
 						cardImg={projects[0].cardImg}
 						siteLink={projects[0].siteLink}
 						codeLink={projects[0].codeLink}
@@ -23,6 +26,7 @@ function App() {
 					/>
 					<ProjectCard
 						title={projects[1].title}
+						description={projects[1].description}
 						cardImg={projects[1].cardImg}
 						siteLink={projects[1].siteLink}
 						codeLink={projects[1].codeLink}
@@ -30,6 +34,7 @@ function App() {
 					/>
 					<ProjectCard
 						title={projects[2].title}
+						description={projects[2].description}
 						cardImg={projects[2].cardImg}
 						siteLink={projects[2].siteLink}
 						codeLink={projects[2].codeLink}
@@ -43,6 +48,7 @@ function App() {
 				<div className='card-deck'>
 					<ProjectCard
 						title={projects[3].title}
+						description={projects[3].description}
 						cardImg={projects[3].cardImg}
 						siteLink={projects[3].siteLink}
 						codeLink={projects[3].codeLink}
@@ -50,6 +56,7 @@ function App() {
 					/>
 					<ProjectCard
 						title={projects[4].title}
+						description={projects[4].description}
 						cardImg={projects[4].cardImg}
 						siteLink={projects[4].siteLink}
 						codeLink={projects[4].codeLink}
@@ -57,6 +64,7 @@ function App() {
 					/>
 					<ProjectCard
 						title={projects[5].title}
+						description={projects[5].description}
 						cardImg={projects[5].cardImg}
 						siteLink={projects[5].siteLink}
 						codeLink={projects[5].codeLink}
