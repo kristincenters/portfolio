@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../assets/kmc.1.jpg';
+//import headshot from '../assets/kmc.1.jpg';
 import backgroundImg from '../assets/portfolio_background-01.svg';
 
 const styles = {
@@ -17,7 +17,7 @@ function Hero() {
 	return (
 		<div style={styles.jumbotron}>
 			<img
-				src={headshot}
+				src='https://kristincenters.github.io/assets/images/kmc%20copy.jpg'
 				className='img-fluid rounded-circle border border-white d-block mx-auto'
 				alt='Kristin Centers'
 			/>

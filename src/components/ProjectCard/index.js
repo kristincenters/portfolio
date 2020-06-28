@@ -1,5 +1,4 @@
 import React from 'react';
-//import cardimg1 from '../assets/graphic-headers-01.svg';
 
 function ProjectCard(props) {
 	return (
