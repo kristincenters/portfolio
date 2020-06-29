@@ -1,5 +1,4 @@
 import React from 'react';
-//import headshot from '../assets/kmc.1.jpg';
 import backgroundImg from '../assets/portfolio_background-01.svg';
 
 const styles = {
