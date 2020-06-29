@@ -1,7 +1,5 @@
 import React from 'react';
 import sqlicon from '../assets/mysql.svg';
-//import mongoicon from '../assets/mongodb.png';
-// import file from '../assets/CentersResume.pdf';
 
 function Footer() {
 	return (
