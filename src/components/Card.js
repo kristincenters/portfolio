@@ -1,5 +1,23 @@
 import React from 'react';
 
+const styles = {
+	cardTitle: {
+		margin: '10px',
+		padding: '15px',
+		textAlign: 'center',
+		verticalAlign: 'middle',
+		fontFamily: 'Roboto',
+	},
+	cardLink: {
+		color: 'gray',
+		textAlign: 'center',
+	},
+	cardFooter: {
+		backgroundColor: '#6aa5a5',
+		color: '#686868',
+	},
+};
+
 function ProjectCard(props) {
 	return (
 		<div className='card'>
@@ -8,10 +26,10 @@ function ProjectCard(props) {
 					<img className='card-img-top' src={props.cardImg} alt={props.title} />
 				</a>
 				<div className='card-body'>
-					<h5 className='card-title'>{props.title}</h5>
+					<h5 className={styles.cardTitle}>{props.title}</h5>
 					<p className='card-white'>{props.description}</p>
 					<a
-						className='card-link'
+						className={styles.cardLink}
 						target='_blank'
 						rel='noopener noreferrer'
 						href={props.siteLink}
@@ -19,7 +37,7 @@ function ProjectCard(props) {
 						:: VIEW SITE
 					</a>
 					<a
-						className='card-link'
+						className={styles.cardLink}
 						target='_blank'
 						rel='noopener noreferrer'
 						href={props.codeLink}
@@ -28,7 +46,7 @@ function ProjectCard(props) {
 					</a>
 				</div>
 			</div>
-			<div className='card-footer'>
+			<div className={styles.cardFooter}>
 				<small className='text-white'>{props.cardFooter}</small>
 			</div>
 		</div>

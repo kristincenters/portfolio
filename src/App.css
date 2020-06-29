@@ -7,35 +7,6 @@ body {
 	background-color: #f4f5e6;
 	color: #585858;
 }
-.card-link {
-	color: gray;
-	text-align: center;
-}
-.card-title {
-	margin: 10px;
-	padding: 15px;
-	text-align: center;
-	vertical-align: middle;
-	font-family: 'Roboto', sans-serif;
-}
-.card-footer {
-	background-color: #6aa5a5;
-	color: #686868;
-}
-div.colorbar {
-	background-color: #6aa5a5;
-	color: #686868;
-}
-.navText {
-	font-family: 'Euphoria Script', cursive;
-	font-family: 'Gruppo', cursive;
-	color: #484848;
-	font-size: 38px;
-}
-/* .navbar {
-	background-color: #6aa5a5;
-} */
-/* unvisited link */
 a:link {
 	color: #808080;
 }

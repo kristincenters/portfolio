@@ -1,5 +1,4 @@
 import React from 'react';
-import sqlicon from '../assets/mysql.svg';
 
 function Footer() {
 	return (
@@ -18,7 +17,12 @@ function Footer() {
 					<i className='fab fa-adobe fa-3x'></i>
 				</div>
 				<div className='col-lg-1 text-center'>
-					<img src={sqlicon} alt='mysql' width='50' height='50' />
+					<img
+						src='https://kristincenters.github.io/assets/images/mysql.svg'
+						alt='mysql'
+						width='50'
+						height='50'
+					/>
 				</div>
 				<div className='col-lg-1 text-center'>
 					<i className='fab fa-node fa-3x'></i>

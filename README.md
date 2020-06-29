@@ -1,4 +1,4 @@
-# My Portfolio Site
+# Portfolio
 
 ## https://kristincenters.github.io/
 
