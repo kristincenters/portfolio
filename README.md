@@ -1,5 +1,7 @@
 # Portfolio
 
+## [Live Link](https://kristincenters.github.io/react-portfolio/)
+
 ## Technologies
 
 HTML, CSS, Bootstrap, React
