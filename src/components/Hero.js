@@ -20,6 +20,8 @@ function Hero() {
 				className='img-fluid rounded-circle border border-white d-block mx-auto'
 				alt='Kristin Centers'
 			/>
+			<br />
+			<h2 className='display-5 text-center'>Kristin Centers</h2>
 			<h1 className='display-5 text-center'>Coder. Content. Creative.</h1>
 			<p className='lead text-center'>
 				I've enjoyed a successful career in the field of corporate

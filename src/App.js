@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import ProjectCard from './components/Card';
 import Footer from './components/Footer';
@@ -9,7 +8,6 @@ import projects from './projects.json';
 function App() {
 	return (
 		<div>
-			<Header />
 			<Hero />
 			<br />
 			<br />

@@ -5,7 +5,6 @@ const styles = {
 		margin: '10px',
 		padding: '15px',
 		textAlign: 'center',
-		verticalAlign: 'middle',
 		fontFamily: 'Roboto',
 	},
 	cardLink: {
@@ -14,7 +13,7 @@ const styles = {
 	},
 	cardFooter: {
 		backgroundColor: '#6aa5a5',
-		color: '#686868',
+		color: '#000',
 	},
 };
 
@@ -45,9 +44,12 @@ function ProjectCard(props) {
 						:: VIEW CODE
 					</a>
 				</div>
-			</div>
-			<div className={styles.cardFooter}>
-				<small className='text-white'>{props.cardFooter}</small>
+				<div
+					className='card-footer'
+					style={{ backgroundColor: '#6aa5a5', color: 'white' }}
+				>
+					<small className={styles.cardFooter}>{props.cardFooter}</small>
+				</div>
 			</div>
 		</div>
 	);
